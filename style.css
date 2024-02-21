@@ -1,0 +1,36 @@
+.container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+.container{
+    padding: 6%;
+    border: 3px solid black;
+    margin-top: 100px;
+}
+.d{
+   width: 250px;
+}
+
+.container2{
+    background-color: rgb(70, 122, 242);
+    margin-top: 56px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    gap: 120px ;
+}
+.container2 div{
+    margin: 20px;
+}
+@media only screen and (max-width: 810px){
+    .container2{
+        flex-direction: column;
+
+    }
+    .container2 div {
+        margin: 34px ;
+    }
+}
