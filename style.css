@@ -52,7 +52,7 @@ body {
     margin: 30px;
     padding: 0px;
     color: black;
-    font-size: 37px;
+    font-size: 32px;
 }
 
 .container2 img {
@@ -70,6 +70,6 @@ body {
     }
     .container2 img{
         margin-top: 60px;
-        margin-left: 120px;
+        margin-left: 20px;
     }
 }
