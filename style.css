@@ -1,3 +1,7 @@
+body {
+    background-image: url("ezgif.com-resize.jpg");
+}
+
 .container form {
     display: flex;
     flex-direction: column;
@@ -5,32 +9,67 @@
     align-items: center;
     gap: 45px;
 }
-.container{
+
+.container {
+    height: 232px;
+    background-color:  rgb(104, 251, 126);
     padding: 6%;
     border: 3px solid black;
     margin-top: 100px;
 }
-.d{
-   width: 250px;
-}
 
-.container2{
-    background-color: rgb(70, 122, 242);
+.d {
+    width: 250px;
+}
+#textes{
+    margin-top: 60px;
+    padding: 8px;
+    font-size: 22px;
+    font-weight: bolder;
+    font-style: italic;
+}
+#submit{
+    margin-top: 36px;
+    font-size: 25px;
+    font-style: italic;
+    color: white;
+    background-image: url("ezgif.com-resize.jpg");
+    padding: 9px;
+    border: 2px solid black;
+    border-radius: 9px;
+}
+.container2 {
+    background-color: rgb(170, 195, 253);
     margin-top: 56px;
     border: 3px solid black;
     display: flex;
     justify-content: center;
-    gap: 120px ;
+    gap: 120px;
 }
-.container2 div{
-    margin: 20px;
+
+.container2 div {
+    font-style: italic;
+    margin: 30px;
+    padding: 0px;
+    color: black;
+    font-size: 37px;
 }
-@media only screen and (max-width: 810px){
-    .container2{
+
+.container2 img {
+    align-items: center;
+    width: 305px;
+    height: 304px;
+    border-radius: 171px;
+}
+
+@media only screen and (max-width: 810px) {
+    .container2 {
+        gap: 15px;
         flex-direction: column;
 
     }
-    .container2 div {
-        margin: 34px ;
+    .container2 img{
+        margin-top: 60px;
+        margin-left: 120px;
     }
 }
